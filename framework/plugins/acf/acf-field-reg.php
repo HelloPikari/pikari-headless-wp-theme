@@ -51,6 +51,26 @@ if ( class_exists( 'acf' ) && function_exists( 'register_field_group' ) ) {
         'append' => '',
         'maxlength' => '',
       ),
+      array(
+        'key' => 'field_5bcf8c52659f2',
+        'label' => 'Icon',
+        'name' => 'icon',
+        'type' => 'text',
+        'instructions' => 'Add a heroicon',
+        'required' => 0,
+        'conditional_logic' => 0,
+        'show_in_graphql' => 1,
+        'wrapper' => array(
+          'width' => '',
+          'class' => '',
+          'id' => '',
+        ),
+        'default_value' => '',
+        'placeholder' => '',
+        'prepend' => '',
+        'append' => '',
+        'maxlength' => '',
+      ),
     ),
     'location' => array(
       array(
