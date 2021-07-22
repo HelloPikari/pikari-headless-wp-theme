@@ -30,7 +30,7 @@ $includes = array(
   'widgets/widgets',              // Custom widgets
   //'shortcodes/shortcodes',        // Custom Shortcodes
   //'scripts',                      // Theme Scripts (Enqueued JS and CSS)
-  //'actions',                      // Hooks
+  'actions',                      // Hooks
   //'partials/partials',
 
 

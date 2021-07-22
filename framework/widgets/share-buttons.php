@@ -6,8 +6,8 @@ class Sharebuttons_Widget extends WP_Widget {
   function __construct() {
     parent::__construct(
       'sharebuttons_widget',
-      esc_html__( 'Share Buttons', 'dev6' ),
-      array( 'description' => esc_html__( 'Adds Social Sharing buttons', 'dev6' ), ) // Args
+      esc_html__( 'Share Buttons', 'pikari' ),
+      array( 'description' => esc_html__( 'Adds Social Sharing buttons', 'pikari' ), ) // Args
     );
   }
 
@@ -103,21 +103,21 @@ class Sharebuttons_Widget extends WP_Widget {
         $default = $widget_field['default'];
       }
 
-      $widget_value = ! empty( $instance[$widget_field['id']] ) ? $instance[$widget_field['id']] : esc_html__( $default, 'dev6' );
+      $widget_value = ! empty( $instance[$widget_field['id']] ) ? $instance[$widget_field['id']] : esc_html__( $default, 'pikari' );
 
       switch ( $widget_field['type'] ) {
         case 'group_title':
-          $output .= '<p><strong>' . esc_attr( $widget_field['label'], 'dev6' ) . '</strong></p><hr>';
+          $output .= '<p><strong>' . esc_attr( $widget_field['label'], 'pikari' ) . '</strong></p><hr>';
           break;
         case 'checkbox':
           $output .= '<p>';
           $output .= '<input class="checkbox" type="checkbox" '. checked( $widget_value, true, false ).' id="'.esc_attr( $this->get_field_id( $widget_field['id'] ) ).'" name="'.esc_attr( $this->get_field_name( $widget_field['id'] ) ).'" value="1">';
-          $output .= '<label for="'.esc_attr( $this->get_field_id( $widget_field['id'] ) ).'">'.esc_attr( $widget_field['label'], 'dev6' ).'</label>';
+          $output .= '<label for="'.esc_attr( $this->get_field_id( $widget_field['id'] ) ).'">'.esc_attr( $widget_field['label'], 'pikari' ).'</label>';
           $output .= '</p>';
           break;
         default:
           $output .= '<p>';
-          $output .= '<label for="'.esc_attr( $this->get_field_id( $widget_field['id'] ) ).'">'.esc_attr( $widget_field['label'], 'dev6' ).':</label> ';
+          $output .= '<label for="'.esc_attr( $this->get_field_id( $widget_field['id'] ) ).'">'.esc_attr( $widget_field['label'], 'pikari' ).':</label> ';
           $output .= '<input class="widefat" id="'.esc_attr( $this->get_field_id( $widget_field['id'] ) ).'" name="'.esc_attr( $this->get_field_name( $widget_field['id'] ) ).'" type="'.$widget_field['type'].'" value="'.esc_attr( $widget_value ).'">';
           $output .= '</p>';
       }

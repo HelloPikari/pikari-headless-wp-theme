@@ -65,7 +65,7 @@ remove_action('admin_print_scripts', 'print_emoji_detection_script');
 remove_action('wp_print_styles', 'print_emoji_styles');
 remove_action('admin_print_styles', 'print_emoji_styles');
 
-add_action( 'wp_head', 'pikari_add_favicon' ); //Add Favicon
+//add_action( 'wp_head', 'pikari_add_favicon' ); //Add Favicon
 
 
 
@@ -86,8 +86,8 @@ add_action( 'pikari_admin_init', 'add_admin_menu_separator' );
  *
  * Available hooks: pikari_body_start, pikari_body_end
  */
-add_action( 'pikari_body_start', 'pikari_skip_to_content' );
-add_action( 'pikari_body_start', 'pikari_navbar_primary' );
+//add_action( 'pikari_body_start', 'pikari_skip_to_content' );
+//add_action( 'pikari_body_start', 'pikari_navbar_primary' );
 
 
  /**
@@ -104,8 +104,8 @@ add_action( 'pikari_body_start', 'pikari_navbar_primary' );
 /**
  * Main Site Footer
  */
-add_action( 'pikari_site_footer', 'pikari_newsletter_subscribe', 10 );
-add_action( 'pikari_site_footer', 'pikari_footer_widgets', 11 );
+//add_action( 'pikari_site_footer', 'pikari_newsletter_subscribe', 10 );
+//add_action( 'pikari_site_footer', 'pikari_footer_widgets', 11 );
 
 
 
@@ -126,7 +126,7 @@ add_action( 'pikari_site_footer', 'pikari_footer_widgets', 11 );
 /**
  * Posts
  */
-add_action( 'save_post', 'pikari_update_post_reading_time', 10, 3 );
+//add_action( 'save_post', 'pikari_update_post_reading_time', 10, 3 );
 //add_action( 'pikari_site_end', 'pikari_after_post_copy', 17 );
 //add_action( 'pikari_site_end', 'pikari_after_post_list', 18 );
 

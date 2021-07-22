@@ -64,4 +64,3 @@ function unregister_default_widgets() {
   unregister_widget( 'Twenty_Eleven_Ephemera_Widget' );
 }
 endif;
-add_action( 'widgets_init', 'unregister_default_widgets', 11 );

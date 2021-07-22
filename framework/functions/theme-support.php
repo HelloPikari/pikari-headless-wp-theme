@@ -35,8 +35,8 @@ if ( ! function_exists( 'pikari_theme_support' ) ) :
     add_theme_support( 'editor-styles' );
 
     // Enqueue editor styles.
-    add_editor_style( 'dist/css/style-editor.min.css' );
-    add_editor_style( 'dist/css/bundle.min.css' );
+    //add_editor_style( 'dist/css/style-editor.min.css' );
+    //add_editor_style( 'dist/css/bundle.min.css' );
 
     // Add custom editor font sizes.
     add_theme_support(
@@ -76,12 +76,12 @@ if ( ! function_exists( 'pikari_theme_support' ) ) :
         array(
           'name'  => __( 'Primary', 'pikari' ),
           'slug'  => 'primary',
-          'color' => pikari_hsl_hex( 'default' === get_theme_mod( 'primary_color' ) ? 199 : get_theme_mod( 'primary_color_hue', 199 ), 100, 33 ),
+          'color' => hsl_hex( 'default' === get_theme_mod( 'primary_color' ) ? 199 : get_theme_mod( 'primary_color_hue', 199 ), 100, 33 ),
         ),
         array(
           'name'  => __( 'Secondary', 'pikari' ),
           'slug'  => 'secondary',
-          'color' => pikari_hsl_hex( 'default' === get_theme_mod( 'primary_color' ) ? 199 : get_theme_mod( 'primary_color_hue', 199 ), 100, 23 ),
+          'color' => hsl_hex( 'default' === get_theme_mod( 'primary_color' ) ? 199 : get_theme_mod( 'primary_color_hue', 199 ), 100, 23 ),
         ),
         array(
           'name'  => __( 'Dark Gray', 'pikari' ),

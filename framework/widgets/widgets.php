@@ -2,16 +2,16 @@
 /* -------------------------------------------------------------------------- *\
     Require the widget files below
 \* -------------------------------------------------------------------------- */
-$d6_widgets = array(
+$pikari_widgets = array(
   'register',                       //Setup the widget areas
   'share-buttons',                  // Social Share buttons
 
 );
 
-wp_file_loader( $d6_widgets, 'widgets' );
+wp_file_loader( $pikari_widgets, 'widgets' );
 
 
 // Unset the global variable.
-unset( $d6_widgets );
+unset( $pikari_widgets );
 
 ?>
