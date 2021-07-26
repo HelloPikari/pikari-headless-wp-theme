@@ -39,6 +39,13 @@ add_action( 'widgets_init', 'register_pikari_widget_areas' );
 add_action( 'widgets_init', 'unregister_default_widgets' );
 
 /* -------------------------------------------------------------------------- *\
+    ACF Init
+\* -------------------------------------------------------------------------- */
+add_action( 'acf/init', 'pikari_register_acf_options_pages' );
+add_action( 'acf/init', 'pikari_register_acf_fields' );
+
+
+/* -------------------------------------------------------------------------- *\
     Modify Main Query
 \* -------------------------------------------------------------------------- */
 //add_action( 'pre_get_posts', 'alter_query_with_conditional_tags' );

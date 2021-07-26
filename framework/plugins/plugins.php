@@ -3,8 +3,8 @@
     Require the plugin files below
 \* -------------------------------------------------------------------------- */
 $pikari_plugins = array(
+  'acf/acf-options',
   'acf/acf-field-reg',
-  'acf/acf-pro',
 
   // 'acf/blocks/client-highlight',
   // 'acf/blocks/client-logos',
