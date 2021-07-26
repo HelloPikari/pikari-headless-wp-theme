@@ -23,17 +23,15 @@ $includes = array(
   'admin-init',                   // WP Admin Setup
   'classes/class-svg-icons',      // Sites SVG images
   'functions/functions',          // Template View Functions
-  //'filters/filters',              // Filters
+  //'filters/filters',            // Filters
   'plugins/plugins',              //
-  //'post-types/post-types',        // Custom Post Types Registration
+  //'post-types/post-types',      // Custom Post Types Registration
   'menus',                        // Custom widgets
-  'widgets/widgets',              // Custom widgets
-  //'shortcodes/shortcodes',        // Custom Shortcodes
-  //'scripts',                      // Theme Scripts (Enqueued JS and CSS)
+  // 'widgets/widgets',           // Custom widgets
+  //'shortcodes/shortcodes',      // Custom Shortcodes
+  //'scripts',                    // Theme Scripts (Enqueued JS and CSS)
   'actions',                      // Hooks
   //'partials/partials',
-
-
 );
 
 

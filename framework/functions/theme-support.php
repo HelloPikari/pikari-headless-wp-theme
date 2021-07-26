@@ -25,6 +25,12 @@ if ( ! function_exists( 'pikari_theme_support' ) ) :
     // Add theme support for selective refresh for widgets.
     add_theme_support( 'customize-selective-refresh-widgets' );
 
+    // Kill the widget blog editor
+    remove_theme_support( 'widgets-block-editor' );
+
+    // Set post thumbnail size.
+    set_post_thumbnail_size( 1200, 9999 );
+
     // Add support for Block Styles.
     add_theme_support( 'wp-block-styles' );
 

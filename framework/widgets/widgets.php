@@ -3,9 +3,8 @@
     Require the widget files below
 \* -------------------------------------------------------------------------- */
 $pikari_widgets = array(
-  'register',                       //Setup the widget areas
-  'share-buttons',                  // Social Share buttons
-
+  'register-sidebars',                // Setup the sidebars
+  'unregister-default-widgets'        // Add custom widgets
 );
 
 wp_file_loader( $pikari_widgets, 'widgets' );
