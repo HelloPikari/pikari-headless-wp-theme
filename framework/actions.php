@@ -33,10 +33,10 @@ add_action( 'after_setup_theme', 'pikari_theme_support');
     Widgets Init
 \* -------------------------------------------------------------------------- */
 //Register Widget Areas
-add_action( 'widgets_init', 'pikari_register_sidebar_areas' );
+//add_action( 'widgets_init', 'pikari_register_sidebar_areas' );
 
 //Remove some defaults widgets
-add_action( 'widgets_init', 'pikari_unregister_default_widgets' );
+//add_action( 'widgets_init', 'pikari_unregister_default_widgets' );
 
 /* -------------------------------------------------------------------------- *\
     ACF Init
