@@ -25,8 +25,7 @@ add_action( 'after_setup_theme', 'pikari_theme_support');
 /* -------------------------------------------------------------------------- *\
     Init
 \* -------------------------------------------------------------------------- */
-//add_action( 'init', 'register_pikari_testimonial_cpt', 2);
-//add_action( 'init', 'register_pikari_testimonial_taxonomies', 0);
+add_action('init', 'pikari_register_menus');
 
 
 /* -------------------------------------------------------------------------- *\

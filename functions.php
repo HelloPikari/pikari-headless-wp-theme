@@ -26,7 +26,6 @@ $includes = array(
   //'filters/filters',            // Filters
   'plugins/plugins',              //
   //'post-types/post-types',      // Custom Post Types Registration
-  'menus',                        // Custom widgets
   // 'widgets/widgets',           // Custom widgets
   //'shortcodes/shortcodes',      // Custom Shortcodes
   //'scripts',                    // Theme Scripts (Enqueued JS and CSS)

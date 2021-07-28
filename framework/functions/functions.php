@@ -17,6 +17,7 @@ $functions = array(
   'posts-pagination',
   'pretty-print',
   'main-container-class',
+  'menus',
   'query-for-posts',
   'svg-icons',
   'theme-support',
