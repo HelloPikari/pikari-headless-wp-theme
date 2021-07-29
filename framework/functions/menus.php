@@ -13,6 +13,7 @@ function pikari_register_menus() {
       'footer-menu-1'       => 'Footer Menu 1',
       'footer-menu-2'       => 'Footer Menu 2',
       'footer-menu-3'       => 'Footer Menu 3',
+      'footer-menu-4'       => 'Footer Menu 4',
       'site-policies-menu'  => 'Site Policies Menu',
   ));
 

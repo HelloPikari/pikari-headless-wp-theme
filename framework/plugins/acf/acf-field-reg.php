@@ -17,6 +17,26 @@ if ( ! function_exists( 'pikari_register_acf_fields' ) ) :
         'title' => 'Nav Menu Item',
         'fields' => array(
           array(
+            'key' => 'field_5bcf8c52659f0',
+            'label' => 'Text after label',
+            'name' => 'text_after_label',
+            'type' => 'text',
+            'instructions' => 'This text can be styled separately',
+            'required' => 0,
+            'conditional_logic' => 0,
+            'wrapper' => array(
+              'width' => '',
+              'class' => '',
+              'id' => '',
+            ),
+            'show_in_graphql' => 1,
+            'default_value' => '',
+            'placeholder' => '',
+            'prepend' => '',
+            'append' => '',
+            'maxlength' => '',
+          ),
+          array(
             'key' => 'field_5bcf8c52659f1',
             'label' => 'Link to page anchor',
             'name' => 'link_anchor',
