@@ -11,6 +11,7 @@ $functions = array(
   'get-archive-template',
   'get-featured-posts',
   'get-template-partial',
+  'image-sizes',
   'post-meta',
   'post-thumbnail',
   'posts-load-more',

@@ -26,6 +26,7 @@ add_action( 'after_setup_theme', 'pikari_theme_support');
     Init
 \* -------------------------------------------------------------------------- */
 add_action('init', 'pikari_register_menus');
+add_action('init', 'pikari_remove_extra_image_sizes');
 
 
 /* -------------------------------------------------------------------------- *\
