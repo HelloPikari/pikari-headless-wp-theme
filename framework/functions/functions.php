@@ -6,6 +6,8 @@
 $functions = array(
   'arr-to-str',
   'convert-hsl-hex',
+  'excerpt-length',
+  'excerpt-more',
   'get-latest-post',
   'get-single-template',
   'get-archive-template',

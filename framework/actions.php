@@ -44,6 +44,11 @@ add_action('init', 'pikari_remove_extra_image_sizes');
 add_action( 'acf/init', 'pikari_register_acf_options_pages' );
 add_action( 'acf/init', 'pikari_register_acf_fields' );
 
+/* -------------------------------------------------------------------------- *\
+    Excerpts
+\* -------------------------------------------------------------------------- */
+add_filter( 'excerpt_length', 'pikari_excerpt_length' );
+add_filter( 'excerpt_more', 'pikari_excerpt_more' );
 
 /* -------------------------------------------------------------------------- *\
     Modify Main Query
