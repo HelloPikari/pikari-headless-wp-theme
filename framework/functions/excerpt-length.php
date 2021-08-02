@@ -6,7 +6,7 @@ if ( ! function_exists( 'pikari_excerpt_length' ) ) :
    * @param string $length of the excerpt.
    */
   function pikari_excerpt_length( $length ) {
-    return 24;
+    return 80;
   }
 endif;
 

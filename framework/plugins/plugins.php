@@ -5,6 +5,7 @@
 $pikari_plugins = array(
   'acf/acf-options',
   'acf/acf-field-reg',
+  'acf/acf-fields',
 
   // 'acf/blocks/client-highlight',
   // 'acf/blocks/client-logos',
